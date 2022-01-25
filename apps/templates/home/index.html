@@ -21,29 +21,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- Primary Meta Tags -->
 <title>
-    Django Volt Dashboard - Presentation | AppSeed    
+    Walify
 </title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="title" content="Volt - Free Bootstrap 5 Admin Dashboard">
-<meta name="author" content="Themesberg">
-<meta name="description" content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
-<meta name="keywords" content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, themesberg, themesberg dashboard, themesberg admin dashboard" />
-<link rel="canonical" href="https://themesberg.com/product/admin-dashboard/volt-premium-bootstrap-5-dashboard">
+<meta name="title" content="Walify">
+<meta name="author" content="Walify.App">
+<meta name="description" content="Walify is a url shortener that allows you to accept premade vouchers to access your content or url.">
+<meta name="keywords" content="walify, app, link, shortener, url shortener, paywall, vouchers, restricted access, restrict content" />
+<link rel="canonical" href="https://walify.app/">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://demo.themesberg.com/volt-pro">
-<meta property="og:title" content="Volt - Free Bootstrap 5 Admin Dashboard">
-<meta property="og:description" content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
-<meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
+<meta property="og:url" content="https://walify.app/">
+<meta property="og:title" content="Walify">
+<meta property="og:description" content="Walify is a url shortener that allows you to accept premade vouchers to access your content or url.">
+<meta property="og:image" content="https://walify.app/static/assets/img/og.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://demo.themesberg.com/volt-pro">
-<meta property="twitter:title" content="Volt - Free Bootstrap 5 Admin Dashboard">
-<meta property="twitter:description" content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
-<meta property="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
+<meta property="twitter:url" content="https://walify.app/">
+<meta property="twitter:title" content="Walify">
+<meta property="twitter:description" content="Walify is a url shortener that allows you to accept premade vouchers to access your content or url.">
+<meta property="twitter:image" content="https://walify.app/static/assets/img/twitter.jpg">
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
@@ -85,9 +85,6 @@
                         </div>
                     </div>
                     <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                        <li class="nav-item me-2">
-                            <a href="/dashboard.html" class="nav-link">Dashboard</a>
-                        </li>
                         {% if user.is_superuser %}
                             <li class="nav-item me-2">
                                 <a href="/admin/auth/user/" class="nav-link">Admin</a>
@@ -103,11 +100,11 @@
                     </ul>
                 </div>
                 <div class="d-flex align-items-center ms-auto">
-                    <a href="https://appseed.us/admin-dashboards/django-dashboard-volt" 
+                    <a href="/dashboard.html" 
                        target="_blank" 
                        class="btn btn-outline-white d-inline-flex align-items-center me-md-3">
                         <svg class="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 9.5A3.5 3.5 0 005.5 13H9v2.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 15.586V13h2.5a4.5 4.5 0 10-.616-8.958 4.002 4.002 0 10-7.753 1.977A3.5 3.5 0 002 9.5zm9 3.5H9V8a1 1 0 012 0v5z" clip-rule="evenodd"></path></svg>
-                        Download
+                        Dashboard
                     </a>
                 </div>
             </div>
@@ -124,24 +121,24 @@
                         <div class="bootstrap-big-icon d-none d-lg-block">
                             <svg xmlns="http://www.w3.org/2000/svg" width="700" height="622" class="d-block my-1" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
                         </div>
-                        <h1 class="fw-bolder">Volt Bootstrap 5 Dashboard</h1>
+                        <h1 class="fw-bolder">Walify.app</h1>
                         <h2 class="lead fw-normal text-muted mb-5">
-                            Open-source Seed Project
+                            A paywall and url shortener.
                         </h2>
                         <!-- Button Modal -->
                         <div class="d-flex align-items-center justify-content-center mb-5">
-                            <a href="/dashboard.html" class="btn btn-secondary d-inline-flex align-items-center me-4">
+                            <a href="/demo.html" class="btn btn-secondary d-inline-flex align-items-center me-4">
                                 <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11 4a1 1 0 10-2 0v4a1 1 0 102 0V7zm-3 1a1 1 0 10-2 0v3a1 1 0 102 0V8zM8 9a1 1 0 00-2 0v2a1 1 0 102 0V9z" clip-rule="evenodd"></path></svg>
                                 Dashboard Demo
                             </a>                            
                         </div>
                         <div class="d-flex justify-content-center flex-column mb-6 mb-lg-5">
-                            <a href="https://themesberg.com" target="_blank">
-                                <img src="/static/assets/img/themesberg.svg" class="d-block mx-auto mb-3" height="25" width="25" alt="Themesberg Logo">
+                            <a href="https://skitzen.com" target="_blank">
+                                <img src="/static/assets/img/skitzen.svg" class="d-block mx-auto mb-3" height="25" width="25" alt="Skitzen Logo">
                                 <span class="text-muted font-small">
-                                    &copy; Themesberg
+                                    &copy; Skitzen Technology Services
                                 </span>
-                                <a target="_blank" href="https://appseed.us">Coded by AppSeed</a>
+                                <a target="_blank" href="https://skitzen.com">Developed By Skitzen Technology Services</a>
                             </a>
                         </div>
                     </div>
@@ -149,6 +146,7 @@
             </div>
             <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2"><svg class="home-pattern" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4"><path d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path></svg></figure>       
         </section>
+        <!--
         <div class="section pt-0">
             <div class="container mt-n10 mt-lg-n12 z-2">
                 <div class="row justify-content-center">
@@ -158,7 +156,7 @@
                 </div>
             </div>
         </div>
-
+-->
         <section class="section section-lg bg-soft pt-0">
             <div class="container">
                 <div class="row justify-content-center mb-5 mb-lg-6">
@@ -166,51 +164,54 @@
                         <div class="icon icon-shape bg-white shadow-lg rounded mb-4">
                             <svg class="icon icon-md text-secondary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path></svg>
                         </div>
-                        <h3 class="fw-bolder">21</h3>
-                        <p class="text-gray">Dashboard Pages</p>
+                        <h3 class="fw-bolder">800+</h3>
+                        <p class="text-gray">Paywalled Urls</p>
                     </div>
                     <div class="col-6 col-md-3 text-center mb-4">
                         <div class="icon icon-shape bg-white shadow-lg rounded mb-4">
                             <svg class="icon icon-md text-secondary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"></path></svg>
                         </div>
-                        <h3 class="fw-bolder">800+</h3>
-                        <p class="text-gray">Premium Components</p>
+                        <h3 class="fw-bolder">3252</h3>
+                        <p class="text-gray">Vouchers used</p>
                     </div>
                     <div class="col-6 col-md-3 text-center">
                         <div class="icon icon-shape bg-white shadow-lg rounded mb-4">
                             <svg class="icon icon-md text-secondary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"></path></svg>
                         </div>
-                        <h3 class="fw-bolder">Workflow</h3>
-                        <p class="text-gray">Sass & Gulp</p>
+                        <h3 class="fw-bolder">$52k</h3>
+                        <p class="text-gray">Amount Spent</p>
                     </div>
                     <div class="col-6 col-md-3 text-center">
                         <div class="icon icon-shape bg-white shadow-lg rounded mb-4">
                             <svg class="icon icon-md text-secondary" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"></path></svg>
                         </div>
-                        <h3 class="fw-bolder">Vanilla</h3>
-                        <p class="text-gray">Javascript</p>
+                        <h3 class="fw-bolder">65%</h3>
+                        <p class="text-gray">Average Bounce Rate</p>
                     </div>
                 </div>
                 <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-5 order-lg-2 mb-5 mb-lg-0">
-                            <h2 class="h1">Bootstrap 5</h2>
-                            <p class="mb-4 lead fw-bold">Latest version of Bootstrap without jQuery</p>
-                            <p class="mb-4">Volt is built using the latest version of Bootstrap 5 and we only used Vanilla Javascript for everything including the plugins</p>
+                            <h2 class="h1">Create Paywalled Content</h2>
+                            <p class="mb-4 lead fw-bold">Create short urls that accept vouchers</p>
+                            <p class="mb-4">Similar to bit.ly, you enter a URL that you want to shorten and we give you a much smaller url. For example: walify.link/Aj3jD03f <br/>
+                            You can then give out this URL freely. Instead of it redirecting immediately, there is a brief page that requests a voucher code. This voucher code <br />
+                            is created by you upon receipt of payment and then given to the user. You can restrict them by expiration time, number of uses, and IP address. 
+                            Create an unlimited number of vouchers per url, track the amount received, and keep notes on who and what they were for.</p>
                         </div>
                         <div class="col-lg-6 order-lg-1">
                             <img src="/static/assets/img/illustrations/bs5-illustrations.svg" alt="Front pages overview">
                         </div>
                     </div>
                     <div class="col-lg-5 mb-5 mb-lg-0">
-                        <h2 class="h1 d-flex align-items-center">Kanban Board <span class="ms-3 mb-0 fs-6 badge badge-lg rounded-pill text-gray-800 bg-secondary">Pro</span></h2>
-                        <p class="mb-4 lead fw-bold">Advanced FullCalendar.js integration</p>
-                        <p class="mb-4">We created a fully editable calendar where you can add, edit and delete events for your admin dashboard.</p>
-                        <a href="https://jinja-volt-pro.appseed-srv1.com/kanban.html" target="_blank" class="btn btn-secondary d-inline-flex align-items-center me-3">
+                        <h2 class="h1 d-flex align-items-center">Payment Gateways <span class="ms-3 mb-0 fs-6 badge badge-lg rounded-pill text-gray-800 bg-success">Essential</span></h2>
+                        <p class="mb-4 lead fw-bold">Accept Payment Right From Your URL</p>
+                        <p class="mb-4">Accept payment from Swipe or Paypal and then cash out when the amount reaches $25 or more. A voucher will be generated on the fly and automatically be filled in and emailed to them.</p>
+                        <a href="https://walify.link/payment_demo" target="_blank" class="btn btn-secondary d-inline-flex align-items-center me-3">
                             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
                             Demo
                         </a>
-                        <!-- <a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/plugins/kanban/" target="_blank" class="btn btn-outline-primary"><span class="fas fa-book me-2"></span> Guide</a> -->
+                        <a href="/payment_gateway_setup.html" target="_blank" class="btn btn-outline-primary"><span class="fas fa-book me-2"></span> Setup Guide</a>
                     </div>
                     <div class="col-lg-6">
                         <img src="/static/assets/img/mockup-kanban-presentation.png" alt="Kanban Preview">
@@ -218,13 +219,14 @@
                 </div>
                 <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
                     <div class="col-lg-5 order-lg-2 mb-5 mb-lg-0">
-                        <h2 class="h1 d-flex align-items-center">Mapbox <span class="ms-3 mb-0 fs-6 badge badge-lg rounded-pill text-gray-800 bg-secondary">Pro</span></h2>
-                        <p class="mb-4 lead fw-bold">Markers and cards integration with Leaflet.js</p>
-                        <p class="mb-4">You can use this map to add markers with custom cards and show them on a map using our custom MapBox integration with Leaflet.js</p>
-                        <a href="https://jinja-volt-pro.appseed-srv1.com/map.html" target="_blank" class="btn btn-secondary d-inline-flex align-items-center me-3">
+                        <h2 class="h1 d-flex align-items-center">Content Previews <span class="ms-3 mb-0 fs-6 badge badge-lg rounded-pill text-gray-800 bg-secondary">Pro</span></h2>
+                        <p class="mb-4 lead fw-bold">Show content previews to potential buyers</p>
+                        <p class="mb-4">Show brief content previews (up to 50mb per URL for Pro or 150mb per URL for Business) and allow your site to be indexed by search engines. Content previews are SEO ready.</p>
+                        <a href="https://walify.link/content_demo" target="_blank" class="btn btn-secondary d-inline-flex align-items-center me-3">
                             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd"></path></svg>
                             Demo
                         </a>
+                        <a href="/content_preview_setup.html" target="_blank" class="btn btn-outline-primary"><span class="fas fa-book me-2"></span> Setup Guide</a>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <img src="/static/assets/img/mockup-map-presentation.png" alt="MapBox Leaflet.js Custom Integration Mockup">
@@ -232,12 +234,12 @@
                 </div>
                 <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
                     <div class="col-lg-5 mb-5 mb-lg-0">
-                        <h2 class="h1 d-flex align-items-center">Calendar <span class="ms-3 mb-0 fs-6 badge badge-lg rounded-pill text-gray-800 bg-secondary">Pro</span></h2>
-                        <p class="mb-4 lead fw-bold">Advanced FullCalendar.js integration</p>
-                        <p class="mb-4">We created a fully editable calendar where you can add, edit and delete events for your admin dashboard.</p>
-                        <a href="https://jinja-volt-pro.appseed-srv1.com/calendar.html" target="_blank" class="btn btn-secondary d-inline-flex align-items-center me-3">
+                        <h2 class="h1 d-flex align-items-center">Proxy Your URL<span class="ms-3 mb-0 fs-6 badge badge-lg rounded-pill text-white-800 bg-primary">Business</span></h2>
+                        <p class="mb-4 lead fw-bold">No more leaked URLs or redirects</p>
+                        <p class="mb-4">With the proxy feature, we create a secure connection to your URL and they pull the content only from us. Your URL is never given out even after a voucher has been purchased. Works great for downloads. Maximum file size is 50GB per link.</p>
+                        <a href="/plans.html#business" target="_blank" class="btn btn-secondary d-inline-flex align-items-center me-3">
                             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-                            Demo
+                            Request Access
                         </a>                        
                     </div>
                     <div class="col-lg-6">
@@ -251,8 +253,8 @@
             <div class="container">
                 <div class="row justify-content-center mb-5 mb-lg-6">
                     <div class="col-12 text-center">
-                        <h2 class="h1 px-lg-5">10 hand-crafted pages</h2>
-                        <p class="lead px-lg-10">Every page from Volt has been carefully built to provide all the necessary pages your startup will require</p>
+                        <h2 class="h1 px-lg-5">Previews</h2>
+                        <p class="lead px-lg-10">Some screenshots from the app.</p>
                     </div>
                 </div>
                 <div class="row mb-5">
@@ -281,26 +283,18 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="/page-sign-in.html" class="page-preview scale-up-2">
-                            <img class="shadow-lg rounded scale" src="/static/assets/img/pages/sign-in.jpg" alt="Sign In page preview">
+                        <a href="/vouchers.html" class="page-preview scale-up-2">
+                            <img class="shadow-lg rounded scale" src="/static/assets/img/pages/sign-in.jpg" alt="Vouchers page preview">
                             <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Sign In <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
+                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Vouchers <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
                             </div>
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="/page-sign-up.html" class="page-preview scale-up-2">
-                            <img class="shadow-lg rounded scale" src="/static/assets/img/pages/sign-up.jpg" alt="Sign Up page preview">
-                            <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Sign Up <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 mb-5">
-                        <a href="/page-lock.html" class="page-preview scale-up-2">
+                        <a href="/paywall.html" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="/static/assets/img/pages/lock.jpg" alt="Lock page preview">
                             <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Lock <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
+                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Paywall <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
                             </div>
                         </a>
                     </div>
@@ -308,31 +302,7 @@
                         <a href="/page-forgot-password.html" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="/static/assets/img/pages/forgot-password.jpg" alt="Forgot password preview">
                             <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Forgot password <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 mb-5">
-                        <a href="/page-reset-password.html" class="page-preview scale-up-2">
-                            <img class="shadow-lg rounded scale" src="/static/assets/img/pages/reset-password.jpg" alt="Reset password preview">
-                            <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Reset password <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 mb-5">
-                        <a href="/page-404.html" class="page-preview scale-up-2">
-                            <img class="shadow-lg rounded scale" src="/static/assets/img/pages/404.jpg" alt="404 error preview">
-                            <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">404 <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 mb-5">
-                        <a href="/page-500.html" class="page-preview scale-up-2">
-                            <img class="shadow-lg rounded scale" src="/static/assets/img/pages/500.jpg" alt="500 error preview">
-                            <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">500 <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
+                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Account Recovery <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></h6>
                             </div>
                         </a>
                     </div>
@@ -421,132 +391,115 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
-                            <div class="px-3 px-lg-4 py-5 text-center">
-                                <svg class="icon icon-md mb-3" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"></path></svg>
-                                <h5 class="fw-bold text-primary">Vanilla JS</h5>
-                                <p class="mb-0 text-gray-600">jQuery is not a required dependency for Volt</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
-                            <div class="px-3 px-lg-4 py-5 text-center">
-                                <svg class="icon icon-md mb-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-                                <h5 class="fw-bold text-primary">Calendar</h5>
-                                <p class="mb-0 text-gray-600">Advanced integration with FullCalendar.js</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
-                            <div class="px-3 px-lg-4 py-5 text-center">
-                                <svg class="icon icon-md mb-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd"></path></svg>
-                                <h5 class="fw-bold text-primary">MapBox</h5>
-                                <p class="mb-0 text-gray-600">Custom integration with markers and cards</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
-                            <div class="px-3 px-lg-4 py-5 text-center">
-                                <svg class="icon icon-md mb-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"></path></svg>
-                                <h5 class="fw-bold text-primary">Design</h5>
-                                <p class="mb-0 text-gray-600">Crafted by professional UI/UX designers</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-lg line-bottom-soft">
+        <section class="section section-lg bg-white" id="pricing">
             <div class="container">
-                <div class="row justify-content-center mb-5 mb-lg-6">
-                    <div class="col-12 text-center">
-                        <h2 class="h1 px-lg-5">What's inside?</h2>
-                        <p class="lead px-lg-8">We have carefully crafted the perfect folder structure to ensure that finding the files you're looking for are easily reachable and well organized.</p>
-                    </div>
-                </div>
-                <div class="row d-flex align-items-center">
-                    <div class="col-12 col-lg-6 mb-4">
-                        <div class="d-none d-lg-block mt-5">
-                            <h4>You need only HTML, CSS and Javascript?</h4>
-                            <p class="lead mb-4">Don't worry, we got you covered. We have a folder called <code class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and Javascript technologies.</p>
-                            <a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/file-structure/" target="_blank" class="btn btn-secondary d-inline-flex align-items-center">
-                                <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                                Docs 
-                            </a>
+                <div class="row mt-6">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-0 p-4">
+                            <!-- Header -->
+                            <div class="card-header bg-white border-0 pb-0">
+                                <span class="d-block">
+                                    <span class="h2 text-primary fw-bold align-top">Essential</span>
+                                </span>
+                            </div>
+                            <!-- End Header -->
+                            <!-- Content -->
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush price-list">
+                                    <li class="list-group-item bg-white border-0 ps-0"><strong>10</strong> Active URLs</li>
+                                    <li class="list-group-item bg-white border-0 ps-0"><strong>Unlimited</strong> Vouchers</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Payment Gateways</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Reports</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Content Previews</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Proxy</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Custom Branding</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 border-0 ps-0 pb-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Email Support</li>
+                                </ul>
+                            </div>
+                            <a href="https://appseed.us/admin-dashboards/django-dashboard-volt-pro" target="_blank" 
+                               class="btn btn-secondary d-flex align-items-center justify-content-center mb-0 mt-2">Get Essential <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a>
+                            <!-- End Content -->
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 order-lg-first d-flex justify-content-center">
-                        <ul class="d-block fmw-100 list-unstyled folder-structure">
-                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Main folder that you will be working with">
-                                <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                src
-                            </li>
-                            <li>
-                                <ul class="list-unstyled ps-4">
-                                    <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="CSS, Images, Fonts and Javascript">
-                                        <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                        assets
-                                    </li>
-                                    <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="HTML templates">
-                                        <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                        pages
-                                    </li>
-                                    <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Partials are HTML snippets that are included in multiple pages, such as the menu or footer">
-                                        <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                        partials
-                                    </li>
-                                    <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Sass source files">
-                                        <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                        scss
-                                    </li>
-                                    <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="The page you're looking at right now. Call it inception.">
-                                        <svg class="icon icon-sm me-2 text-warning" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg>
-                                        index.html
-                                    </li>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-0 p-4 py-5 mt-lg-n5">
+                            <!-- Header -->
+                            <div class="card-header bg-white border-0 pb-0">
+                                <span class="d-block">
+                                    <span class="h2 text-primary fw-bold align-top">Pro</span>
+                                </span>
+                            </div>
+                            <!-- End Header -->
+                            <!-- Content -->
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush price-list">
+                                    <li class="list-group-item bg-white border-0 ps-0"><strong>100</strong> Active URLs</li>
+                                    <li class="list-group-item bg-white border-0 ps-0"><strong>Unlimited</strong> Vouchers</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Payment Gateways</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Reports</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Content Previews</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Proxy</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Custom Branding</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 border-0 ps-0 pb-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Premium Support</li>
                                 </ul>
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Rocket with only HTML, CSS and Javascript">
-                                <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                html&css
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Temporary folder that is created when serving files with BrowserSync">
-                                <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                .temp
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Minified version of the project">
-                                <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                dist
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Project dependencies from package.json">
-                                <svg class="icon icon-sm me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                                node_modules
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Development workflow commands. We have them well documented.">
-                                <svg class="icon icon-sm me-2 text-warning" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js-square" class="svg-inline--fa fa-js-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"></path></svg>
-                                gulpfile.js
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Project details and dependencies.">
-                                <svg class="icon icon-sm me-2 text-success" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 121.941V128H256V0h6.059c6.365 0 12.47 2.529 16.971 7.029l97.941 97.941A24.005 24.005 0 0 1 384 121.941zM248 160c-13.2 0-24-10.8-24-24V0H24C10.745 0 0 10.745 0 24v464c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V160H248zM123.206 400.505a5.4 5.4 0 0 1-7.633.246l-64.866-60.812a5.4 5.4 0 0 1 0-7.879l64.866-60.812a5.4 5.4 0 0 1 7.633.246l19.579 20.885a5.4 5.4 0 0 1-.372 7.747L101.65 336l40.763 35.874a5.4 5.4 0 0 1 .372 7.747l-19.579 20.884zm51.295 50.479l-27.453-7.97a5.402 5.402 0 0 1-3.681-6.692l61.44-211.626a5.402 5.402 0 0 1 6.692-3.681l27.452 7.97a5.4 5.4 0 0 1 3.68 6.692l-61.44 211.626a5.397 5.397 0 0 1-6.69 3.681zm160.792-111.045l-64.866 60.812a5.4 5.4 0 0 1-7.633-.246l-19.58-20.885a5.4 5.4 0 0 1 .372-7.747L284.35 336l-40.763-35.874a5.4 5.4 0 0 1-.372-7.747l19.58-20.885a5.4 5.4 0 0 1 7.633-.246l64.866 60.812a5.4 5.4 0 0 1-.001 7.879z"></path></svg>
-                                package.json
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="No project can miss a README :)">
-                                <svg class="icon icon-sm me-2 text-success" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 121.941V128H256V0h6.059c6.365 0 12.47 2.529 16.971 7.029l97.941 97.941A24.005 24.005 0 0 1 384 121.941zM248 160c-13.2 0-24-10.8-24-24V0H24C10.745 0 0 10.745 0 24v464c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V160H248zM123.206 400.505a5.4 5.4 0 0 1-7.633.246l-64.866-60.812a5.4 5.4 0 0 1 0-7.879l64.866-60.812a5.4 5.4 0 0 1 7.633.246l19.579 20.885a5.4 5.4 0 0 1-.372 7.747L101.65 336l40.763 35.874a5.4 5.4 0 0 1 .372 7.747l-19.579 20.884zm51.295 50.479l-27.453-7.97a5.402 5.402 0 0 1-3.681-6.692l61.44-211.626a5.402 5.402 0 0 1 6.692-3.681l27.452 7.97a5.4 5.4 0 0 1 3.68 6.692l-61.44 211.626a5.397 5.397 0 0 1-6.69 3.681zm160.792-111.045l-64.866 60.812a5.4 5.4 0 0 1-7.633-.246l-19.58-20.885a5.4 5.4 0 0 1 .372-7.747L284.35 336l-40.763-35.874a5.4 5.4 0 0 1-.372-7.747l19.58-20.885a5.4 5.4 0 0 1 7.633-.246l64.866 60.812a5.4 5.4 0 0 1-.001 7.879z"></path></svg>                               
-                                README.md
-                            </li>
-                            <li class="d-flex align-items-center mb-1" data-bs-toggle="tooltip" data-bs-placement="left" title="This file ensures that generated files and folder are ignored by Git. (eg. node_modules)">
-                                <svg class="icon icon-sm me-2 text-success" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 121.941V128H256V0h6.059c6.365 0 12.47 2.529 16.971 7.029l97.941 97.941A24.005 24.005 0 0 1 384 121.941zM248 160c-13.2 0-24-10.8-24-24V0H24C10.745 0 0 10.745 0 24v464c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V160H248zM123.206 400.505a5.4 5.4 0 0 1-7.633.246l-64.866-60.812a5.4 5.4 0 0 1 0-7.879l64.866-60.812a5.4 5.4 0 0 1 7.633.246l19.579 20.885a5.4 5.4 0 0 1-.372 7.747L101.65 336l40.763 35.874a5.4 5.4 0 0 1 .372 7.747l-19.579 20.884zm51.295 50.479l-27.453-7.97a5.402 5.402 0 0 1-3.681-6.692l61.44-211.626a5.402 5.402 0 0 1 6.692-3.681l27.452 7.97a5.4 5.4 0 0 1 3.68 6.692l-61.44 211.626a5.397 5.397 0 0 1-6.69 3.681zm160.792-111.045l-64.866 60.812a5.4 5.4 0 0 1-7.633-.246l-19.58-20.885a5.4 5.4 0 0 1 .372-7.747L284.35 336l-40.763-35.874a5.4 5.4 0 0 1-.372-7.747l19.58-20.885a5.4 5.4 0 0 1 7.633-.246l64.866 60.812a5.4 5.4 0 0 1-.001 7.879z"></path></svg>
-                                .gitignore
-                            </li>
-                        </ul>
+                            </div>
+                            <a href="https://appseed.us/admin-dashboards/django-dashboard-volt-pro" target="_blank" 
+                               class="btn btn-secondary d-flex align-items-center justify-content-center mb-0 mt-2">Get Pro <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a>
+                            <!-- End Content -->
+                        </div>
                     </div>
-                    <div class="col-12 mt-5 d-lg-none">
-                        <h5>You need only HTML, CSS and Javascript?</h5>
-                        <p>Don't worry, we got you covered. We have a folder called <code class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and Javascript technologies.</p>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-0 p-4 py-5 mt-lg-n5">
+                            <!-- Header -->
+                            <div class="card-header bg-white border-0 pb-0">
+                                <span class="d-block">
+                                    <span class="h2 text-primary fw-bold align-top">Business</span>
+                                </span>
+                            </div>
+                            <!-- End Header -->
+                            <!-- Content -->
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush price-list">
+                                    <li class="list-group-item bg-white border-0 ps-0"><strong>1000</strong> Active URLs</li>
+                                    <li class="list-group-item bg-white border-0 ps-0"><strong>Unlimited</strong> Vouchers</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Payment Gateways</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Reports</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Content Previews</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Proxy</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Custom Branding</li>
+                                    <li class="list-group-item d-flex align-items-center border-0 border-0 ps-0 pb-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Premium Support</li>
+                                </ul>
+                            </div>
+                            <a href="https://appseed.us/admin-dashboards/django-dashboard-volt-pro" target="_blank" 
+                               class="btn btn-secondary d-flex align-items-center justify-content-center mb-0 mt-2">Get Business <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a>
+                            <!-- End Content -->
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="mt-lg-6 row">
+                    <div class="text-center col-12">
+                       <h2 class="h5 text-gray fw-normal mb-4">Works with the following technologies:</h2>
+                       <div>
+                            <a class="me-3 card-link" href="#" target="_blank">
+                                <img src="/static/assets/img/technologies/bootstrap-5-logo.svg" class="image image-sm">
+                            </a>
+                            <a class="me-3 card-link" href="#" target="_blank">
+                                <img src="/static/assets/img/technologies/react-logo.svg" class="image image-sm">
+                            </a>
+                            <a class="me-3 card-link" href="#" target="_blank">
+                                <img src="/static/assets/img/technologies/flask-logo.svg" class="image image-sm">
+                            </a>
+                            <a class="me-3 card-link" href="#" target="_blank">
+                                <img src="/static/assets/img/technologies/django-logo.svg" class="image image-sm">
+                            </a>                             
+                        </div>
                     </div>
                 </div>
             </div>
@@ -558,7 +511,7 @@
                     <div class="col-12">
                         <h2 class="h1 fw-light mb-3">Less <span class="fw-bold">work</span>, more <span class="fw-bold">flow</span>.</h2>
                         <p class="lead px-lg-8">
-                            Boost productivity with BrowserSync. Sass changes are reflected instantly and pages scroll and refresh on devices as you work.
+                            Create vouchers by API with Zapier integration and connect it to all sorts of actions or events. 
                         </p>
                     </div>
                 </div>
@@ -567,17 +520,18 @@
                         <div class="position-relative">
                             <div class="rounded bg-white p-4 text-dark mb-2">
                                 <div class="mb-3">
-                                    <div class="fw-bold">&gt; $ npm install</div>
-                                    <div class="text-gray">Everything’s installed!</div>
+                                    <div class="fw-bold">&gt; GET /api/v1/links  </div>
+                                    <div class="text-gray">[{short_code: "j3j4l2d0", "url": "https://walify.link/j3j4l2d0", total_hits: 3021}]</div>
                                 </div>
                                 <div class="mb-3">
-                                    <div class="fw-bold">&gt; $ gulp</div>
-                                    <div class="text-gray">SCSS watching</div>
-                                    <div class="text-gray">LiveReload started</div>
-                                    <div class="text-gray">Opening localhost:3000</div>
+                                    <div class="fw-bold">&gt; POST /api/v1/link/j3j4l2d0/vouchers</div>
+                                    <div class="text-gray">Request:</div>
+                                    <div class="text-gray">{action: 'create'}</div>
+                                    <div class="text-gray">Response 201 Success:</div>
+                                    <div class="text-gray">{link:{short_code: "j3j4l2d0", "url": "https://walify.link/j3j4l2d0"},voucher:"JDJ3LS03LEE3042379FEBAB"}</div>
                                 </div>
                                 <div>
-                                    <div class="fw-bold">&gt; $ that's it?</div>
+                                    <div class="fw-bold">&gt; That's it?</div>
                                     <div class="text-gray">It's that simple!</div>
                                 </div>
                             </div>
@@ -588,101 +542,6 @@
             </div>
         </section>
 
-        <section class="section section-lg bg-white" id="pricing">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-8">
-                        <h2 class="h1 fw-bold mb-3">Open source</h2>
-                        <p class="lead mb-4">Volt is an open source project under the MIT License.</p>
-                        <div class="d-flex align-items-center">
-                            <a href="https://appseed.us/admin-dashboards/django-dashboard-volt" target="_blank" class="btn btn-gray-800 me-4">
-                                See Product
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="github-big-icon">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-6">
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="card shadow border-0 p-4">
-                            <!-- Header -->
-                            <div class="card-header bg-white border-0 pb-0">
-                                <span class="d-block">
-                                    <span class="h2 text-primary fw-bold align-top">Free Demo</span>
-                                </span>
-                            </div>
-                            <!-- End Header -->
-                            <!-- Content -->
-                            <div class="card-body">
-                                <ul class="list-group list-group-flush price-list">
-                                    <li class="list-group-item border-0 ps-0"><strong>100</strong> Components</li>
-                                    <li class="list-group-item border-0 ps-0"><strong>11</strong> Example Pages</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Advanced sidebar</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Kanban Drag and Drop</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> MapBox</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Calendar</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> SVG Map</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Widgets</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0 pb-0"><svg class="icon icon-xs text-danger me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg> Premium Support</li>
-                                </ul>
-                            </div>
-                            <!-- End Content -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="card shadow border-0 p-4 py-5 mt-lg-n5">
-                            <!-- Header -->
-                            <div class="card-header bg-white border-0 pb-0">
-                                <span class="d-block">
-                                    <span class="h2 text-primary fw-bold align-top">Pro Version</span>
-                                </span>
-                            </div>
-                            <!-- End Header -->
-                            <!-- Content -->
-                            <div class="card-body">
-                                <ul class="list-group list-group-flush price-list">
-                                    <li class="list-group-item bg-white border-0 ps-0"><strong>1000+</strong> Components</li>
-                                    <li class="list-group-item bg-white border-0 ps-0"><strong>21</strong> Example Pages</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Advanced sidebar</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Kanban Drag and Drop</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> MapBox</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Calendar</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> SVG Map</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 ps-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Widgets</li>
-                                    <li class="list-group-item d-flex align-items-center border-0 border-0 ps-0 pb-0"><svg class="icon icon-xs text-success me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Premium Support</li>
-                                </ul>
-                            </div>
-                            <a href="https://appseed.us/admin-dashboards/django-dashboard-volt-pro" target="_blank" 
-                               class="btn btn-secondary d-flex align-items-center justify-content-center mb-0 mt-2">Django Volt Pro <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a>
-                            <!-- End Content -->
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-lg-6 row">
-                    <div class="text-center col-12">
-                       <h2 class="h5 text-gray fw-normal mb-4">Available in the following technologies:</h2>
-                       <div>
-                            <a class="me-3 card-link" href="https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard" target="_blank">
-                                <img src="/static/assets/img/technologies/bootstrap-5-logo.svg" class="image image-sm">
-                            </a>
-                            <a class="me-3 card-link" href="https://demo.themesberg.com/volt-react-dashboard/#/" target="_blank">
-                                <img src="/static/assets/img/technologies/react-logo.svg" class="image image-sm">
-                            </a>
-                            <a class="me-3 card-link" href="https://appseed.us/admin-dashboards/flask-dashboard-volt" target="_blank">
-                                <img src="/static/assets/img/technologies/flask-logo.svg" class="image image-sm">
-                            </a>
-                            <a class="me-3 card-link" href="https://appseed.us/admin-dashboards/django-dashboard-volt" target="_blank">
-                                <img src="/static/assets/img/technologies/django-logo.svg" class="image image-sm">
-                            </a>                             
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
     </main>
 
@@ -691,48 +550,48 @@
             <div class="row">
                 <div class="col-md-4">
                     <img class="navbar-brand-dark mb-4" height="35" src="/static/assets/img/brand/light.svg" alt="Logo light">
-                    <p>Volt is a Premium Bootstrap 5 Admin Dashboard bringing together beautiful UI/UX design and functional elements.</p>
+                    <p>Walify is a url shortener that allows you to paywall content before redirecting them to the URL. </p>
                     <ul class="social-buttons mb-5 mb-lg-0">
                         <li>
-                            <a href="https://twitter.com/themesberg" aria-label="twitter social link" class="icon-white me-2">
+                            <a href="https://twitter.com/walify" aria-label="twitter social link" class="icon-white me-2">
                                 <span class="fab fa-twitter"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/themesberg/" class="icon-white me-2" aria-label="facebook social link">
+                            <a href="https://www.facebook.com/walify/" class="icon-white me-2" aria-label="facebook social link">
                                 <span class="fab fa-facebook"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/themesberg" aria-label="github social link" class="icon-white me-2">
+                            <a href="https://github.com/walify" aria-label="github social link" class="icon-white me-2">
                                 <span class="fab fa-github"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://dribbble.com/themesberg" class="icon-white" aria-label="dribbble social link" >
+                            <a href="https://dribbble.com/walify" class="icon-white" aria-label="dribbble social link" >
                                 <span class="fab fa-dribbble"></span>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-2 mb-5 mb-lg-0">
-                    <span class="h5">Themesberg</span>
+                    <span class="h5">Walify.app</span>
                     <ul class="links-vertical mt-2">
-                        <li><a target="_blank" href="https://themesberg.com/blog">Blog</a></li>
-                        <li><a target="_blank" href="https://themesberg.com/products">Products</a></li>
-                        <li><a target="_blank" href="https://themesberg.com/about">About Us</a></li>
-                        <li><a target="_blank" href="https://themesberg.com/contact">Contact Us</a></li>
+                        <li><a href="/documentation.html" target="_blank">Docs
+                                <span class="badge badge-sm bg-secondary text-dark ms-2">v0.1</span></a></li>
+                        <li><a href="/changelog.html" target="_blank">Changelog</a></li>
+                        <li><a target="_blank" href="/api.html">API (Coming Soon)</a>
+                        </li>
+                        <li><a target="_blank" href="/support.html">Support</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-2 mb-5 mb-lg-0">
-                    <span class="h5">Other</span>
+                    <span class="h5">Skitzen.com</span>
                     <ul class="links-vertical mt-2">
-                        <li><a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/" target="_blank">Docs
-                                <span class="badge badge-sm bg-secondary text-dark ms-2">v1.4</span></a></li>
-                        <li><a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/changelog/" target="_blank">Changelog</a></li>
-                        <li><a target="_blank" href="https://themesberg.com/licensing">License</a>
-                        </li>
-                        <li><a target="_blank" href="https://themesberg.com/contact">Support</a></li>
+                        <li><a target="_blank" href="https://skitzen.com/blog">Blog</a></li>
+                        <li><a target="_blank" href="https://skitzen.com/products">Services</a></li>
+                        <li><a target="_blank" href="https://skitzen.com/about-us">About Us</a></li>
+                        <li><a target="_blank" href="https://skitzen.com/contact-us">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-4 mb-5 mb-lg-0">
@@ -755,12 +614,12 @@
             <hr class="bg-gray-700 my-5">
             <div class="row">
                 <div class="col mb-md-0">
-                    <a href="https://themesberg.com" target="_blank" class="d-flex justify-content-center">
-                        <img src="/static/assets/img/themesberg-logo-alt.svg" height="35" class="mb-4" alt="Themesberg Logo">
+                    <a href="https://skitzen.com" target="_blank" class="d-flex justify-content-center">
+                        <img src="/static/assets/img/skitzen-logo-alt.svg" height="35" class="mb-4" alt="Skitzen Logo">
                     </a>
                 <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
                     <p class="fw-normal font-small mb-0">
-                        &copy; Themesberg 2019-<span class="current-year">2020</span> - coded by <a target="_blank" href="https://appseed.us">AppSeed</a>.</p>
+                        &copy; Walify.app 2022-<span class="current-year">2022</span> - Developed by <a target="_blank" href="https://skitzen.com">Skitzen Technology Services</a>.</p>
                     </div>
                 </div>
             </div>
